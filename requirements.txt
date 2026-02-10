@@ -1,0 +1,14 @@
+altair<5
+fastapi
+uvicorn[standard]
+numpy
+pandas
+yahooquery
+torch
+scikit-learn
+xgboost
+requests
+supabase
+matplotlib
+streamlit>=1.35.0
+plotly
