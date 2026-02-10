@@ -7,7 +7,7 @@ import sys
 
 # Ensure local imports work
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from app.services.supabase_db import db_service
+from .supabase_db import db_service
 
 st.set_page_config(page_title="RayBot Manual Trade Manager", layout="wide")
 
